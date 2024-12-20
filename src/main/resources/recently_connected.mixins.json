@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "client": [
     "MultiplayerScreenMixin",
-    "ServerListAccessor"
+    "ServerListAccessor",
+    "ServerListMixin"
   ],
   "injectors": {
     "defaultRequire": 1
