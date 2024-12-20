@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "recently_connected",
+  "version": "${version}",
+
+  "name": "RecentlyConnected",
+  "description": "A minecraft mod sorting the server list by last played",
+  "authors": [],
+  "contact": {},
+
+  "license": "GPL-3.0",
+  "icon": "assets/recently_connected/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.justahuman.recently_connected.RecentlyConnected"]
+  },
+
+  "mixins": [
+    "recently_connected.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

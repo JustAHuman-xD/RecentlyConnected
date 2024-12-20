@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.justahuman.recently_connected.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MultiplayerScreenMixin",
+    "ServerListAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
